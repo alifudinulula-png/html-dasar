@@ -1,0 +1,69 @@
+/* Umum */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2563eb;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  max-width: 800px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* 1) Title Box dengan Border-Left */
+.section-title {
+  padding-left: 10px;
+  border-left: 4px solid #22c55e;
+  margin-bottom: 10px;
+}
+
+/* 2) Gambar Membulat */
+.avatar {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+}
+
+/* 3) Box Konten Seragam */
+.box {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Tombol */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #10b981;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.button:hover {
+  background-color: #059669;
+}
+
+/* List spacing */
+ul, ol {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
